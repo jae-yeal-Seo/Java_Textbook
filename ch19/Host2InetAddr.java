@@ -9,9 +9,9 @@ public class Host2InetAddr {
 		
 		
 			InetAddress address = InetAddress.getByName(hostName);
-			//InetAddress : ÀÚ¹Ù¿¡¼­ IPÁÖ¼Ò¸¦ Ç¥ÇöÇÒ ¶§ »ç¿ëÇÏ´Â Å¬·¡½º
-			System.out.println("IPÁÖ¼Ò:"+address.getHostAddress());
-			//InetAddressÀÇ ÀÎ½ºÅÏ½º¸¦ ÀÌ¿ëÇØ¼­ IPÁÖ¼Ò¸¦ ¾ò´Â´Ù.
+			//InetAddress : ìë°”ì—ì„œ IPì£¼ì†Œë¥¼ í‘œí˜„í•  ë•Œ ì‚¬ìš©í•˜ëŠ” í´ë˜ìŠ¤
+			System.out.println("IPì£¼ì†Œ:"+address.getHostAddress());
+			//InetAddressì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì´ìš©í•´ì„œ IPì£¼ì†Œë¥¼ ì–»ëŠ”ë‹¤.
 		
 	}
 }
